@@ -76,7 +76,7 @@ int main() {
     double menor_valor, maior_valor;
     int dias_acima_media;
 
-    ler_faturamento("faturamento.xml");
+    ler_faturamento("Dados (2).xml");
     calcular_faturamento(&menor_valor, &maior_valor, &dias_acima_media);
 
     printf("Menor valor de faturamento: R$%.2f\n", menor_valor);
